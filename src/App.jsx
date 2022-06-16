@@ -1,15 +1,16 @@
-import { View } from 'react-native';
+import React from 'react';
 import {
-  Navigator,
-  TopBar
-} from './components';
-import styles from './App.style'
+  Text,
+  View,
+} from 'react-native';
 
-export default function App() {
+import styles from './styles/App.style'
+
+export const App = () => {
+
   return (
-    <View style={styles.container}>
-      <TopBar />
-      <Navigator />
+    <View style={styles.highlight}>
+      <Text>Hi from sam</Text>
     </View>
-  )
-}
+  );
+};

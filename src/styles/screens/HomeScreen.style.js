@@ -4,7 +4,7 @@ import {
 
 
 export default styles = StyleSheet.create({
-  balance: {
-    backgroundColor: 'red'
+  home: {
+    height: '100%'
   }
 });

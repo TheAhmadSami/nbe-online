@@ -2,7 +2,7 @@ import React from 'react';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { View, Image, Button, Text, Alert, TouchableOpacity } from 'react-native';
 
-import styles from './../styles/TopBar.style'
+import styles from './../styles/components/TopBar.style'
 
 export const TopBar = () => {
   return (

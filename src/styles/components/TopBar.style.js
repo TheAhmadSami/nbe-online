@@ -6,9 +6,9 @@ import {
 export default styles = StyleSheet.create({
 
   topBar: {
-    flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    padding: 10,
   },
 
   menu: {

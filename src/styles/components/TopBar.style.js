@@ -36,7 +36,6 @@ export default styles = StyleSheet.create({
     },
     shadowOpacity: 0.20,
     shadowRadius: 1.00,
-    elevation: 1,
   },
 
   userInfo: {

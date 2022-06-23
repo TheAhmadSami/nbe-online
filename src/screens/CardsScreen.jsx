@@ -3,6 +3,18 @@ import { View, Text, Image, ScrollView } from 'react-native';
 
 import styles from './../styles/screens/CardsScreen.style'
 
+function wait(ms) {
+  const start = new Date().getTime();
+  let end = start;
+
+  while (end < start + ms) {
+    end = new Date().getTime();
+  }
+}
+
+wait(1000);
+
+
 export const CardsScreen = () => {
 
   const [users, setUsers] = useState([

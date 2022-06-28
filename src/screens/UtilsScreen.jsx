@@ -3,16 +3,16 @@ import { View, Text, Image, ScrollView } from 'react-native';
 
 import styles from './../styles/screens/UtilsScreen.style'
 
-function wait(ms) {
-  const start = new Date().getTime();
-  let end = start;
+// function wait(ms) {
+//   const start = new Date().getTime();
+//   let end = start;
 
-  while (end < start + ms) {
-    end = new Date().getTime();
-  }
-}
+//   while (end < start + ms) {
+//     end = new Date().getTime();
+//   }
+// }
 
-wait(1000);
+// wait(1000);
 
 export const UtilsScreen = () => {
 
